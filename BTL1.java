@@ -4,17 +4,18 @@ public class BTL1 {
         System.out.println("Hello World");
         //Bai 2
         String a = "Hello World";
-        //Bai 3
         System.out.println(a);
+        //Bai 3
+
         String b = "Hello";
         String c = "World";
-        System.out.println(b + " " + c);
+        String d = b + " " + c;
+        System.out.println(d);
         //Bai 4
-        Myprint(b, c);
     }
-    static void Myprint(String b, String c){
+    static void Myprint(String d){
        
-        System.out.println(b + " " + c);
+        System.out.println(d);
     }
     
 }
